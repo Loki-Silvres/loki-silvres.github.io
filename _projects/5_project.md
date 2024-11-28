@@ -13,6 +13,17 @@ This project explores the use of **Deep Convolutional Generative Adversarial Net
 
 The study successfully generates realistic synthetic images using just 365 training samples, demonstrating the potential of GANs in improving model performance for data-scarce applications. Additionally, a variant of the architecture was applied to generate **anime-style faces**, showcasing the versatility of the approach.  
 
+---
+
+<div class="row">
+   <div class="col-sm mt-6 mt-md-0">
+       {% include figure.liquid path="assets/img/DCGAN_architecture.png" title="Training Dataset Image" class="img-fluid rounded z-depth-1" %}
+   </div>
+</div>
+<div class="caption">
+   Model Architecture of DCGAN
+</div>
+
 --- 
 
 ## Research Highlights  
