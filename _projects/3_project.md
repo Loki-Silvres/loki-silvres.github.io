@@ -2,7 +2,7 @@
 layout: page  
 title: Embedded Toy Detection  
 description: Real-time toy detection for mobile robots using advanced object detection models  
-img: assets/img/dusty.png 
+img:  
 importance: 3  
 category: ml_research
 ---
@@ -22,10 +22,10 @@ This research project enhances a baseline object detection model through advance
 
 <div class="row">
    <div class="col-sm mt-6 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets/img/toy_inference.png" title="Inference" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid loading="eager" path="assets/img/toy_inference_.png" title="Inference" class="img-fluid rounded z-depth-1" %}
    </div>
    <div class="col-sm mt-6 mt-md-0"> 
-       {% include figure.liquid loading="eager" path="assets/img/metric_improv.png" title="Model Improvements" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid loading="eager" path="assets/img/metric_improv_.png" title="Model Improvements" class="img-fluid rounded z-depth-1" %}
    </div>
 </div>
 <div class="caption">
@@ -34,7 +34,7 @@ This research project enhances a baseline object detection model through advance
 
 ---
 
-## Workflow and Implementation
+## Workflow and Implementation 
 
 1. **Dataset Augmentation**:  
    Pseudo-labelled unannotated images with **Co-DETR**, creating a larger, high-quality dataset.  
