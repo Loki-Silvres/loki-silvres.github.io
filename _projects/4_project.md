@@ -12,7 +12,8 @@ category: robotics
 This project focuses on developing an autonomous **Warehouse Drone** for the **e-Yantra 2023-24 competition**, leveraging advanced techniques in navigation, control systems, and simulation. The drone is designed to autonomously navigate a confined warehouse environment, localize itself, and perform tasks efficiently.
 
 ---
-<iframe width="930" height="450" src="https://www.youtube.com/watch?v=tMtO-cpKz9Y" title="Warehouse Drone Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="930" height="450" src="https://www.youtube.com/embed/tMtO-cpKz9Y" title="Warehouse Drone Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ### Key Features:

@@ -12,8 +12,8 @@ category: robotics
 This repository contains the source code and resources developed by **Team eyrc_hb_1523** for the **E-Yantra 2023-2024 Hologlyph Bots** competition. The theme focuses on leveraging **holonomic drive robots** to create artistic patterns and glyphs. With advanced motion control, the robots excel in translating complex instructions into precise drawings on a confined arena.
 
 ---
-<iframe width="930" height="450" src="https://youtu.be/puT0LCRGoLM?si=_R9IvJwU_apjrbUI" title="Hologlyph Bots Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
----
+<iframe width="930" height="450" src="https://www.youtube.com/embed/puT0LCRGoLM" title="Hologlyph Bots Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+--- 
 
 ## Project Overview
 
