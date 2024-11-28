@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Alok Raj
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 23rd January 2004
+    - name: Languages 
+      value: English, Hindi
 
 - title: Education
   type: time_table

@@ -1,25 +1,21 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Robotics Revolutionary
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+posts: false
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a researcher focused on **Robotic Perception and Computer Vision**, My work centers on vision-based models applied to swarm mobile robots and autonomous vehicles, aiming to create adaptive robotic platforms that integrate advanced perception, learning, and control mechanisms. My goal is to advance robot intelligence through vision transformers and machine learning techniques that enable autonomous decision-making in dynamic environments. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently an **CS undergraduate** at **IIT Dhanbad**, India, where I have had the pleasure of working under the mentorship of [Prof. Subhrangsu Mandal](https://scholar.google.co.in/citations?user=4Uc5kc0AAAAJ&hl=en). I was also fortunate to complete an internship at Clutterbot Technologies Pvt. Ltd. in Bangalore, India, where I worked on improving baseline vision models through knowledge distillation and data engineering.
