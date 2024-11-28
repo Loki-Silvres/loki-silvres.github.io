@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'ffi', '~> 1.15'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
