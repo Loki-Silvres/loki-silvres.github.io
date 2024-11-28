@@ -13,10 +13,10 @@ The B3RB Autonomous Driving project represents a comprehensive exploration of ro
 
 <div class="row">
    <div class="col-sm mt-6 mt-md-0">
-       {% include figure.liquid loading="eager" path="assets\img\lidar_camera_testing.png" title="LIDAR and Camera Detection" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid loading="eager" path="assets/img/lidar_camera_testing.png" title="LIDAR and Camera Detection" class="img-fluid rounded z-depth-1" %}
    </div>
    <div class="col-sm mt-6 mt-md-0"> 
-       {% include figure.liquid loading="eager" path="assets\img\model_testing.png" title="Model Inference" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid loading="eager" path="assets/img/model_testing.png" title="Model Inference" class="img-fluid rounded z-depth-1" %}
    </div>
 </div>
 <div class="caption">
@@ -49,7 +49,7 @@ The autonomous system was built on a robust technological stack, integrating mul
        {% include figure.liquid path="assets/img/buggy_on_track.jpeg" title="Buggy on Track" class="img-fluid rounded z-depth-1" %}
    </div>
    <div class="col-sm-4 mt-3 mt-md-0">
-       {% include figure.liquid path="assets\img\buggy_block-diagram.png" title="Block Diagram" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid path="assets/img/buggy_block-diagram.png" title="Block Diagram" class="img-fluid rounded z-depth-1" %}
    </div>
 </div>
 <div class="caption"> 
