@@ -54,3 +54,9 @@ This research project enhances a baseline object detection model through advance
 
 - **Deployment Performance**:  
   Achieved **real-time inference** at **15 FPS** on Nvidia Jetson Nano.  
+
+--- 
+## Note
+
+The research and experimentation for this project was done in conjunction with my ML intern at Clutterbot Technologies Pvt. Ltd under the mentorship of <a href='https://scholar.google.com/citations?user=kUSzbRAAAAAJ&hl=en'> Mr. Sanchit Tanwar</a>. As such, I am unable to share the source code due to confidentiality reasons.
+   
