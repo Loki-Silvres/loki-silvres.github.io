@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Grand Finalist at <a href = "https://nxp.gitbook.io/nxp-aim"> NXP-AIM: </a> The smart car design challenge by <a href = "https://www.nxp.com/"> NXP-Semiconductors </a>.
+Grand Finalist at <a href = "https://nxp.gitbook.io/nxp-aim"> NXP-AIM</a>: The smart car design challenge by <a href = "https://www.nxp.com/"> NXP-Semiconductors </a>.

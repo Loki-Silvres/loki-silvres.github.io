@@ -1,81 +1,102 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Hologlyph Bots
+description: Swarm holonomic robots
+img: assets/img/hologlyph_swarm.png
+importance: 8 
+category: robotics 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### <a href="https://github.com/Loki-Silvres/Hologlyph-Bots">[Code]</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This repository contains the source code and resources developed by **Team eyrc_hb_1523** for the **E-Yantra 2023-2024 Hologlyph Bots** competition. The theme focuses on leveraging **holonomic drive robots** to create artistic patterns and glyphs. With advanced motion control, the robots excel in translating complex instructions into precise drawings on a confined arena.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
+<iframe width="930" height="450" src="https://youtu.be/puT0LCRGoLM?si=_R9IvJwU_apjrbUI" title="Hologlyph Bots Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Project Overview
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### **Key Features**
+- **Holonomic Drive**: Allows for movement along X, Y, and Z (rotation) axes for precision navigation.
+- **Swarm Coordination**: Multiple robots collaborating to achieve tasks efficiently.
+- **Dynamic Drawing**: Capable of creating complex mathematical patterns or portraits.
+- **Seamless Simulation-to-Hardware Transition**: Consistency in virtual and physical results.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+---
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## How the Project Was Made
 
-{% raw %}
+### Hardware Components
+- **ESP32 Microcontroller**: The brain of the robots, handling communication and motion.
+- **Omnidirectional Wheels**: Facilitate smooth holonomic motion.
+- **Overhead Camera System**: Provides real-time feedback for accurate localization.
+- **Arena Flex-Print Surface**: A durable, custom-designed surface for glyph creation.
+- **Power Supply**: Ensures stable performance for motors and microcontrollers.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+### Software Components
+- **ROS Humble**: Controls robot movement and handles inter-robot communication.
+- **Gazebo-Classic**: Simulates tasks before real-world execution.
+- **OpenCV**: Powers vision-based tasks like ArUco marker detection.
+- **Python Libraries**: Used for algorithms and visualizations (`numpy`, `matplotlib`, etc.).
+
+---
+
+## Workflow and Implementation
+
+### 1. **Simulation Setup**
+- Design tasks in Gazebo-Classic for iterative testing and debugging.
+- Implement control algorithms for holonomic movement in ROS.
+
+### 2. **Hardware Integration**
+- Transition tested simulations to the physical arena.
+- Use **calibrated overhead cameras** for localization and precise task execution.
+
+### 3. **Task Execution**
+- Robots receive task-specific instructions and operate collaboratively to complete objectives.
+- Artistic patterns are created using pre-planned algorithms.
+
+---
+
+## Task Highlights
+
+### **Task 4: Shape Drawing**
+- **Triangle and Rectangle Creation**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_triangle.png?raw=true" width="320" alt="Triangle Drawing" />
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/task_4_rectangle.png?raw=true" width="320" alt="Rectangle Drawing" />
+
+---
+
+### **Task 5: Final Arena Demonstration**
+- **Arena with Robots**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_arena_with_Bots.jpg?raw=true" width="450" alt="Arena with Bots" />
+
+- **Final Task Output**  
+  <img src="https://github.com/Loki-Silvres/Hologlyph-Bots/blob/main/Arena%20photos/Task_5_result.jpg?raw=true" width="450" alt="Final Task Result" />
+
+---
+
+## Repository Structure
+
+```plaintext
+Hologlyph-Bots/
+├── Arduino Code/
+├── Arena Photos/
+├── Aruco_Markers/
+├── cam_calibration_640x480/
+├── hb_task1a_ws/
+├── hb_task1b_ws/
+├── STL files/
+├── PCB and Circuit/
+└── README.md
 ```
 
-{% endraw %}
+---
+
+## Submission and Demonstrations
+- View our complete project submissions in this [YouTube Playlist](https://youtube.com/playlist?list=PL_9--5xsFYUQ-xg70fmYQrzXn2ip_9O3C&si=z0v1tnEO03IPCXnJ).
+
+---
+
+## Acknowledgments
+- **E-Yantra**: For fostering innovative robotics projects.

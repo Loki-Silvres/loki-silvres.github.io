@@ -1,80 +1,66 @@
 ---
-layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+layout: page  
+title: Warehouse Drone  
+description: Navigation and Control Systems  
+img: assets/img/wd_sim_drone.png  
+importance: 10  
+category: robotics  
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### <a href="https://github.com/Loki-Silvres/Warehouse-Drone">[Code]</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project focuses on developing an autonomous **Warehouse Drone** for the **e-Yantra 2023-24 competition**, leveraging advanced techniques in navigation, control systems, and simulation. The drone is designed to autonomously navigate a confined warehouse environment, localize itself, and perform tasks efficiently.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
+<iframe width="930" height="450" src="https://www.youtube.com/watch?v=tMtO-cpKz9Y" title="Warehouse Drone Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+
+### Key Features:
+- **Navigation**: Implemented A* algorithm for optimal pathfinding in cluttered environments.  
+- **Control Systems**: Used **PID tuning** for precise control over drone movements, ensuring smooth and accurate navigation.  
+- **Localization**: Applied computer vision techniques to accurately determine the drone’s position within the environment.  
+- **Simulation**: Developed and tested in **Gazebo Ignition**, providing a realistic simulation environment to fine-tune performance.  
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets\img\wd_simulation_2.png" title="Simulation Environment" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0"> 
+        {% include figure.liquid loading="eager" path="assets\img\path.png" title="Pathfinding in Action" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Left: Simulation environment in Gazebo Ignition. Right: A* pathfinding visualization during navigation.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Progress and Results
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Successfully cleared **Stage 1** of the competition.  
+- Currently ranked **15th** in the ongoing leaderboard.  
+- Demonstrated robust control and navigation capabilities under simulation conditions.  
 
-{% raw %}
+---
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Workflow and Methodology
 
-{% endraw %}
+1. **Navigation Algorithm**:  
+   - Implemented **A*** for computing the shortest path between start and goal locations, optimizing for obstacles in the environment.
+
+2. **Control Systems**:  
+   - Tuned **PID controllers** for maintaining stable and responsive drone movement.
+
+3. **Localization**:  
+   - Leveraged computer vision techniques such as feature matching for precise localization.
+
+4. **Simulation and Testing**:  
+   - Utilized **Gazebo Ignition** for a realistic warehouse simulation environment to iterate and refine drone behavior.
+
+---
+
+## Future Goals
+
+- Advance to the next competition stage by further improving navigation efficiency and robustness.  
+- Transition from simulation to hardware deployment for real-world testing.
+
