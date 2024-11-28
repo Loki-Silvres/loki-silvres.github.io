@@ -12,7 +12,9 @@ category: robotics
 This project builds on the concepts developed for the **E-Yantra 2023-2024 Hologlyph Bots** competition, transforming it into a comprehensive **DIY package** for creating swarm holonomic robots. These robots excel in precise movement and collaborative tasks, enabling them to draw artistic patterns, glyphs, or mathematical shapes in a confined arena. This repository includes detailed instructions for both simulation and hardware implementation, making it an excellent starting point for enthusiasts, researchers, and hobbyists.  
 
 ---
-<iframe width="930" height="450" src="https://www.youtube.com/embed/puT0LCRGoLM" title="Hologlyph Bots Demonstrations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/puT0LCRGoLM" title="Hologlyph Bots Demonstrations" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 ---  
 
 ## Project Overview  

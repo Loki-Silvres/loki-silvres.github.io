@@ -41,7 +41,10 @@ The autonomous system was built on a robust technological stack, integrating mul
 - **Advanced Perception**: Implemented comprehensive obstacle detection and lane tracking
 - **Optimization**: Utilized NPU-optimized model for efficient processing
 
-<iframe width="930" height="450" src="https://www.youtube.com/embed/n6aP2X9CODE" title="Simulation Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n6aP2X9CODE" title="Simulation Demonstration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+</div>
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
