@@ -156,6 +156,19 @@
   ],
   "projects": [
     {
+      "name": "Mobile-Swarm-Navigation",
+      "summary": "Developed a scalable robot swarm for autonomous exploration and navigation in a dynamic environment.",
+      "highlights": [
+        "Achieved dynamic semantic environmental mapping with Instance Segmentation and Stereo Depth",
+        "Designed a custom semantic database management system for efficient task allocation for the swarm",
+        "Designed a user-friendly chatbot interface for swarm control"
+      ],
+      "startDate": "2024-11-10",
+      "endDate": "2024-12-14",
+      "url": "https://github.com/Loki-Silvres/Mobile-Swarm-Navigation",
+      "technologies": ["ROS2", "PyTorch", "Gazebo"]
+    },
+    {
       "name": "Autonomous Driving NXP-B3RB-buggy",
       "summary": "Developed an autonomous driving system for the B3RB buggy using ROS2, leveraging advanced perception and control techniques",
       "highlights": [
