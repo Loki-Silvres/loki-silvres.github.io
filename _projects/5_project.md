@@ -3,7 +3,7 @@ layout: page
 title: Data Augmentation using DCGANs  
 description: Research on dataset augmentation through generative adversarial networks  
 img: assets/img/sample_generated_image.png  
-importance: 5 
+importance: 6
 category: ml_research
 ---   
 

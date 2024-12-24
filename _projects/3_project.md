@@ -3,7 +3,7 @@ layout: page
 title: Embedded Toy Detection  
 description: Real-time toy detection for mobile robots using advanced object detection models  
 img: assets/img/toy_det_image.png
-importance: 3  
+importance: 4 
 category: ml_research     
 ---
 

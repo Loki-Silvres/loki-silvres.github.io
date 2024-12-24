@@ -3,7 +3,7 @@ layout: page
 title: Warehouse Drone  
 description: Navigation and Control Systems  
 img: assets/img/wd_sim_drone.png  
-importance: 4
+importance: 5
 category: robotics  
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Driving B3RB-buggy
 description: Advanced Autonomous Driving System for NXP-AIM'24
 img: assets/img/b3rb_buggy.jpg
-importance: 1
+importance: 2
 category: robotics
 related_publications: true
 ---

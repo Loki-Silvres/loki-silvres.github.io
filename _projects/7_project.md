@@ -1,81 +1,98 @@
 ---
-layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+layout: page  
+title: Dental Disease Detection  
+description: Research on dataset augmentation through generative adversarial networks  
+img: assets/img/sample_generated_image.png  
+importance: 7
+category: ml_research_
+---   
+
+### <a href="https://github.com/Loki-Silvres/Data-Augmentation-using-DCGANs">[Code]</a>           
+
+This project explores the use of **Deep Convolutional Generative Adversarial Networks (DCGANs)** for dataset augmentation, targeting scenarios with extremely limited data availability. Implemented entirely from scratch based on the original DCGAN paper, the project experiments with advanced techniques, such as **Wasserstein loss**, varying training routines, and custom layer configurations.  
+
+The study successfully generates realistic synthetic images using just 365 training samples, demonstrating the potential of GANs in improving model performance for data-scarce applications. Additionally, a variant of the architecture was applied to generate **anime-style faces**, showcasing the versatility of the approach.  
+
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+   <div class="col-sm mt-6 mt-md-0">
+       {% include figure.liquid path="assets/img/DCGAN_architecture.png" title="Training Dataset Image" class="img-fluid rounded z-depth-1" %}
+   </div>
+</div>
+<div class="caption">
+   Model Architecture of DCGAN
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+--- 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Research Highlights  
+
+### **Key Contributions**  
+- **Paper Implementation**: Fully implemented the original DCGAN paper from scratch, adapting the architecture for custom datasets.  
+- **Limited Data Experimentation**: Achieved high-quality results with only 365 training images, showcasing the robustness of the approach.  
+- **Advanced Techniques**: Explored **Wasserstein loss (W-Loss)**, varied training routines, and custom layer configurations to enhance performance.  
+- **Generative Versatility**: Applied the model to generate both domain-specific images (dataset augmentation) and **anime-style faces**.  
+
+---
+
+## Methodology  
+
+### 1. **Problem Statement**  
+In data-scarce scenarios, machine learning models often struggle to generalize due to limited training data. This research aims to augment small datasets by generating realistic synthetic samples, improving model robustness for downstream tasks.  
+
+### 2. **GAN Architecture**  
+- Implemented a **Deep Convolutional GAN (DCGAN)** architecture based on the original paper, introducing:  
+  - Custom layer configurations for domain-specific adaptations.  
+  - Wasserstein loss to improve training stability and diversity in generated images.  
+  - Multiple training routines to optimize adversarial performance.  
+
+### 3. **Dataset and Training**  
+- **Dataset**: Used a small dataset of **365 images** for training, preprocessed to ensure consistency in size and quality.  
+- **Training Pipeline**: Conducted extensive hyperparameter tuning, including:  
+  - Experimentation with different layer depths and kernel sizes.  
+  - Comparative studies with and without W-loss.  
+  - Evaluation of convergence across varying batch sizes and optimizers.  
+
+### 4. **Extensions**  
+- Adapted the architecture to create an **anime-style face generator**, showcasing the ability of DCGANs to transfer learning across domains.  
+
+---
+
+## Results  
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+   <div class="col-sm mt-6 mt-md-0">
+       {% include figure.liquid path="assets/img/sample_dataset_image.png" title="Training Dataset Image" class="img-fluid rounded z-depth-1" %}
+   </div>
+   <div class="col-sm mt-6 mt-md-0"> 
+       {% include figure.liquid path="assets/img/sample_generated_image.png" title="Generated Image for Dataset Augmentation" class="img-fluid rounded z-depth-1" %}
+   </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+   Left: Training Dataset Image. Right: Generated Image for Dataset Augmentation
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
+---
+**Anime Face Generator Output**:  
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/sample_generated_image_anime.png" title="Anime Face Generator Output" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+</div>  
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Insights  
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- **Quality with Limited Data**: The DCGAN architecture performed remarkably well, generating diverse and realistic images from just 365 samples.  
+- **Effectiveness of W-Loss**: Wasserstein loss proved essential for stabilizing training and ensuring variability in outputs.  
+- **Generalization Across Domains**: The anime face generator experiment highlighted the adaptability of the model for creative applications.  
 
-{% endraw %}
+---
+
+## Future Work  
+
+- **Improved Stability**: Incorporating advanced GAN techniques like Progressive Growing or StyleGAN to enhance training stability and output diversity. Also look into Variational Autoencoders.  
+- **Broader Applications**: Applying the methodology to other domains like medical imaging, where data scarcity is common.  
+- **Collaborative Generators**: Exploring GAN architectures for simultaneous multi-class data generation.  

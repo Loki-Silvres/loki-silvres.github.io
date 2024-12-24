@@ -3,7 +3,7 @@ layout: page
 title: Hologlyph Bots  
 description: Swarm Holonomic Robots for Autonomous drawing
 img: assets/img/hologlyph_swarm.png  
-importance: 2 
+importance: 3
 category: robotics  
 ---
 
