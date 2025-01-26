@@ -5,7 +5,6 @@ description: Advanced Autonomous Driving System for NXP-AIM'24
 img: assets/img/b3rb_buggy.jpg
 importance: 2
 category: robotics
-related_publications: true
 ---
 ### <a href="https://github.com/Loki-Silvres/Autonomous-Driving-B3RB-buggy">[Code]</a>
 
@@ -48,7 +47,7 @@ The autonomous system was built on a robust technological stack, integrating mul
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
-       {% include figure.liquid path="assets/img/b3rb_simulation.png" title="Simulation Performance" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid path="assets/video/1st_half_track.gif" title="Simulation Performance" class="img-fluid rounded z-depth-1" %}
    </div> 
    <div class="col-sm-4 mt-3 mt-md-0">
        {% include figure.liquid path="assets/img/buggy_on_track.jpeg" title="Buggy on Track" class="img-fluid rounded z-depth-1" %}
@@ -64,5 +63,4 @@ The autonomous system was built on a robust technological stack, integrating mul
  
 ## Note
 The grand finale videos are unavailable due to NXP-Semiconductors office regulations.
-
----    
+ 
