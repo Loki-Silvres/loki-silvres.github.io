@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working under [Prof. Gora Chand Nandi](https://scholar.google.co.in/citations?user=cVdB1iwAAAAJ&hl=en) as a research intern at [Center of Intelligent Robotics](https://cir.iiita.ac.in/).
+Started working under [Prof. Gora Chand Nandi](https://scholar.google.co.in/citations?user=cVdB1iwAAAAJ&hl=en) as a research intern at [Center of Intelligent Robotics, IIIT Allahabad](https://cir.iiita.ac.in/).
