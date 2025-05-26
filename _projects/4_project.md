@@ -2,7 +2,7 @@
 layout: page  
 title: Warehouse Drone  
 description: Navigation and Control Systems  
-img: assets\img\warehouse_drone_thumbnail.png
+img: assets/img/warehouse_drone_thumbnail.png
 importance: 5 
 category: robotics  
 ---
