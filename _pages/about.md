@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Robotics Revolutionary
+subtitle: Robotics Researcher
 
 profile:
   align: right
