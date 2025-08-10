@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, [Search-TTA](https://search-tta.github.io/) on Embodied Visual Active Search, got accepted to [Conference on Robot Learning (CoRL) 2025](https://openreview.net/group?id=robot-learning.org/CoRL/2025/Conference)!
+Our work, [Search-TTA](https://search-tta.github.io/), on Embodied Visual Active Search got accepted to [Conference on Robot Learning (CoRL) 2025](https://openreview.net/group?id=robot-learning.org/CoRL/2025/Conference)!
