@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work [GRIM](https://grim-tog.github.io) got accepted to ICML workshop [Building Physically Plausible World Models](https://icml.cc/virtual/2025/workshop/39978) 2025!
+Our work, [GRIM](https://grim-tog.github.io), on Task-Oriented Grasping got accepted to ICML workshop [Building Physically Plausible World Models](https://icml.cc/virtual/2025/workshop/39978) 2025!
