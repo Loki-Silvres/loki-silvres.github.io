@@ -7,7 +7,7 @@ importance: 1
 category: machine learning
 ---
 
-### <a href="[https://github.com/RudrakshSJoshi/amlc-multimodal-mlp]">[Code]</a> <a href="https://www.kaggle.com/datasets/manav2805/amazon-ml-challenge-25/data">[Data]</a>
+### <a href="https://github.com/RudrakshSJoshi/amlc-multimodal-mlp">[Code]</a> <a href="https://www.kaggle.com/datasets/manav2805/amazon-ml-challenge-25/data">[Data]</a>
 
 As part of team **SPAM_LLMs**, we achieved **6th place** overall in the **Amazon ML Challenge 2025**, a national competition focused on smart product pricing. Our solution secured the **3rd position on the public leaderboard and 5th on the private leaderboard**.
 
@@ -17,7 +17,7 @@ This project showcases a **multimodal learning** approach to predict product pri
 
 <div class="row">
    <div class="col-sm mt-3 mt-md-0">
-       {% include figure.liquid path="assets/img/AMLC2025-Final-drawio.png" title="Solution Architecture" class="img-fluid rounded z-depth-1" %}
+       {% include figure.liquid path="assets/img/AMLC2025-Final.drawio.png" title="Solution Architecture" class="img-fluid rounded z-depth-1" %}
    </div>
 </div>
 <div class="caption">
@@ -25,6 +25,7 @@ This project showcases a **multimodal learning** approach to predict product pri
 </div>
 
 ---
+
 
 ## Competition Highlights  
 
