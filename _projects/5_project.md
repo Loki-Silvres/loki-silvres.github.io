@@ -4,7 +4,7 @@ title: Data Augmentation using DCGANs
 description: Research on dataset augmentation through generative adversarial networks  
 img: assets/img/sample_generated_image.png  
 importance: 6
-category: ml_research
+category: machine learning
 ---   
 
 ### <a href="https://github.com/Loki-Silvres/Data-Augmentation-using-DCGANs">[Code]</a>           

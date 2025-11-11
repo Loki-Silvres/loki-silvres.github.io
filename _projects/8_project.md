@@ -4,7 +4,7 @@ title: Multimodal Price Regressor
 description: Smart product price prediction - Amazon ML Challenge 2025
 img: assets/img/AMLC2025-Final-drawio.png  
 importance: 1
-category: ml_research
+category: machine learning
 ---
 
 ### <a href="[https://github.com/RudrakshSJoshi/amlc-multimodal-mlp]">[Code]</a> <a href="https://www.kaggle.com/datasets/manav2805/amazon-ml-challenge-25/data">[Data]</a>

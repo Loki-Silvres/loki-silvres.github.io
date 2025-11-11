@@ -4,7 +4,7 @@ title: Embedded Toy Detection
 description: Real-time toy detection for mobile robots using advanced object detection models  
 img: assets/img/toy_det_image.png
 importance: 4 
-category: ml_research     
+category: machine learning     
 ---
 
 This research project enhances a baseline object detection model through advanced techniques such as pseudo-labelling, data engineering, and knowledge distillation. It develops an efficient and scalable **toy detection system** tailored for robotics applications. Leveraging state-of-the-art models like **Co-DETR**, the system pseudo-labels unannotated data to expand the dataset and train a larger model (**DAMO-YOLO-M**) to improve detection accuracy. The deployment model (**DAMO-YOLO-Tiny**) is distilled from the larger variant for lightweight, real-time inference on resource-constrained robotic platforms.
