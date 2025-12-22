@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Robotics Researcher
+subtitle: Machine Learning Researcher
 
 profile:
   align: right
